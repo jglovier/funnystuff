@@ -1,0 +1,38 @@
+.searchList {
+	text-decoration: none;
+	list-style: none;
+}
+.searchList  li {
+	width: 32%;
+	float: left;
+	padding: 5px 25px;
+}
+h4 {
+    font-weight: 200 !important;
+}
+h1, .search-term {
+	text-align: center;
+}
+h1 {
+	color: tomato !important;
+    padding-bottom: 10px;
+}
+.search-term {
+	padding: 30px 0;
+	background-color: tomato;
+}
+#query {
+	border-radius: 5px;
+    padding: 5px 0px;
+    border: lightgrey solid 3px;
+}
+.btn {
+	padding: 7px 11px;
+    background: #fff;
+    color: tomato;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.btn:active:focus, .btn:focus, .btn {
+	outline: none;
+}
